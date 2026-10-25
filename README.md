@@ -3,6 +3,7 @@
 Eternal Return のチーム構成(コンプ)を考えるためのツールです。
 
 > ⚠️ ベータ版です。不具合や、うまく動かない部分があるかもしれません。
+> Releaseからダウンロードが可能です
 
 [日本語](./README.md) / [English](./README-en.md) / [한국어](./README-ko.md) / [繁體中文](./README-zh-TW.md)
 
