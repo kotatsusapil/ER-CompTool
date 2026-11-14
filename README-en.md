@@ -12,13 +12,19 @@ A tool for planning team compositions ("comps") for Eternal Return.
 - Register teams (multiple teams are supported)
 - Build comps for each team, with an optional RouteID for each character
 - Export / import team and player data
+- Look up saved comps by character (Find comps)
+- Dark mode (toggle at the top of the screen)
 - Use the app in Japanese, English, Korean, or Traditional Chinese (searching characters works with names in any language)
 
 ## Getting started
 
+For Windows 11 (64-bit). **You do not need to install .NET separately** — the app is a single exe that includes everything it needs. Just download and run it.
+
 1. On first launch, a **language selection screen** appears. Choose your language (you can change it later inside the app).
 2. A team with a placeholder name is created for you.
 3. Your data is stored next to the app (exe): `ertool.db` (data) and `settings.json` (language and other settings).
+
+Sample data is available in the [`Sample/2026-KEL`](./Sample/2026-KEL) folder of this repository.
 
 The screen is laid out as: **Player area** on the left, the **character list** at the bottom center, and the **Team area** on the right.
 
@@ -67,6 +73,7 @@ The screen is laid out as: **Player area** on the left, the **character list** a
 - **⚙ Gear**: team settings, such as deleting the team.
 - **⤴ Share icon**: exports the team. The linked players are exported together. Use it to share with others.
 - **"+" at the bottom**: adds a comp. Switch between comps with the tabs on the left.
+    - When there are too many comps to fit, a horizontal scroll bar appears under the tabs. Drag it, or use the mouse wheel, to move left and right.
 
 ### Putting characters into a comp
 
@@ -74,6 +81,7 @@ The screen is laid out as: **Player area** on the left, the **character list** a
     - Double-click to remove an assignment.
     - For the same player, drag another character to swap it in.
 - The three slots of a comp are ordered by the **number of the Player on the left**.
+- Even with the same set of characters, comps are **separate if the players are different**. Only a comp whose characters and players are exactly the same counts as a duplicate and cannot be saved (the order does not matter).
 - If you remove a character from a player's pool, it also disappears from the comps.
 
 ### RouteID
@@ -84,13 +92,35 @@ The screen is laid out as: **Player area** on the left, the **character list** a
 
 ---
 
+## Finding comps by character
+
+Answer "which comps include this character?" across all your saved teams.
+
+- The **"Find comps" button** at the top opens a separate window. You can keep using the main window while it is open.
+- **Click characters** in the list on the left to select them (up to 3).
+  - Use the box at the top to filter by name (any language works).
+  - Selected characters are shown at the top right. Click one to unselect it, or use "Clear" to unselect all.
+- Comps that **include all the selected characters** are listed on the right.
+  - Each result shows the team name, the comp number, and the three players with their characters and RouteIDs. The selected characters are highlighted.
+  - Results are sorted by team name, then by comp number.
+- Only **saved data** is searched. Changes you are still editing in the main window (not saved yet) are not included.
+
+---
+
 ## Saving and undo
 
 - Changes are kept as a draft and are not written to the database until you save. While there are unsaved changes, **"● Unsaved"** is shown.
 - **Ctrl+S**: saves the open team and players together (Save all).
 - **Ctrl+Z**: undoes the last action (redo is also available).
 - Players and teams can also be saved individually.
+- After you save a team, the comp you were viewing stays selected.
 - If the same data was changed elsewhere first, you'll be asked whether to overwrite it.
+
+## Dark mode
+
+- Use the **"Dark mode" switch** at the top right to switch the app to a dark color scheme.
+- On first launch, the initial value follows your Windows "app mode" setting.
+- Your choice is saved in `settings.json` and used on every later launch (changing the Windows setting afterwards does not affect it).
 
 ## Language
 
