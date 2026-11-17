@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 2,
+  "masterVersion": 1,
+  "players": [
+    {
+      "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+      "playerName": "DINA",
+      "playerDakgg": "https://dak.gg/er/players/ADINA",
+      "subjectIds": [
+        13,
+        16,
+        45,
+        52,
+        53,
+        55,
+        58,
+        67,
+        68,
+        80,
+        87,
+        91
+      ]
+    },
+    {
+      "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+      "playerName": "Luminal",
+      "playerDakgg": "https://dak.gg/er/players/%EB%A3%A8%EB%AF%B8%EB%82%A0",
+      "subjectIds": [
+        7,
+        8,
+        17,
+        32,
+        44,
+        62,
+        66,
+        79
+      ]
+    },
+    {
+      "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+      "playerName": "MaeGok",
+      "playerDakgg": "https://dak.gg/er/players/%EC%8C%80%EB%B0%A5%EC%B2%9C%EC%82%AC%EB%AA%A8%EB%AA%BD%EA%B0%80",
+      "subjectIds": [
+        51,
+        60,
+        69
+      ]
+    },
+    {
+      "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+      "playerName": "Preme",
+      "playerDakgg": "https://dak.gg/er/players/Preme",
+      "subjectIds": [
+        6,
+        21,
+        25,
+        31,
+        46,
+        54,
+        70,
+        71,
+        72,
+        73
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "71c68a2a-c4a8-49a5-be79-0a0dae8ff736",
+      "teamName": "Gyeongnam Sparkle",
+      "memberIds": [
+        "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+        "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+        "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+        "10746f19-c770-4d11-8ae7-3f24d6afb282"
+      ],
+      "comps": [
+        {
+          "subjects": [
+            25,
+            62,
+            68
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 25,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 62,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 68,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            17,
+            45,
+            69
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 17,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 45,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 69,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            31,
+            53,
+            79
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 31,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 53,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 79,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            6,
+            51,
+            87
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 6,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 87,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            8,
+            60,
+            73
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 8,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 60,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 73,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            21,
+            53,
+            62
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 21,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 53,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 62,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            8,
+            51,
+            87
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 8,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 87,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            6,
+            51,
+            52
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 6,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 52,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            53,
+            62,
+            71
+          ],
+          "slots": [
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 53,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 62,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 71,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            31,
+            51,
+            52
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 31,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 52,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            66,
+            67,
+            71
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 66,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 67,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 71,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            51,
+            53,
+            62
+          ],
+          "slots": [
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 53,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 62,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            8,
+            54,
+            87
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 8,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 54,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 87,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            66,
+            71,
+            80
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 66,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 71,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 80,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            16,
+            44,
+            70
+          ],
+          "slots": [
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 16,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 44,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 70,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            51,
+            55,
+            71
+          ],
+          "slots": [
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 55,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 71,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            7,
+            31,
+            68
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 7,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 31,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 68,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            7,
+            68,
+            72
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 7,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 68,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 72,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            13,
+            72,
+            79
+          ],
+          "slots": [
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 13,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 72,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 79,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            46,
+            53,
+            62
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 46,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 53,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 62,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            6,
+            8,
+            58
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 6,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 8,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 58,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            6,
+            62,
+            68
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 6,
+              "routeId": null
+            },
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 62,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 68,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            31,
+            51,
+            91
+          ],
+          "slots": [
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 31,
+              "routeId": null
+            },
+            {
+              "playerId": "855854bb-9df1-46b9-9795-25d9a2bcab5d",
+              "subjectId": 51,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 91,
+              "routeId": null
+            }
+          ]
+        },
+        {
+          "subjects": [
+            8,
+            72,
+            87
+          ],
+          "slots": [
+            {
+              "playerId": "8d51ee43-f07c-4fa6-800b-39ca8d0b8e31",
+              "subjectId": 8,
+              "routeId": null
+            },
+            {
+              "playerId": "10746f19-c770-4d11-8ae7-3f24d6afb282",
+              "subjectId": 72,
+              "routeId": null
+            },
+            {
+              "playerId": "52bfc242-f7ec-4fe5-91b5-32ad27b519ec",
+              "subjectId": 87,
+              "routeId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
