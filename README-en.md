@@ -10,7 +10,7 @@ A tool for planning team compositions ("comps") for Eternal Return.
 
 - Register players and manage which characters (subjects) they play
 - Register teams (multiple teams are supported)
-- Build comps for each team, with an optional RouteID for each character
+- Build comps for each team, with an optional RouteID and weapon for each character
 - Export / import team and player data
 - Look up saved comps by character (Find comps)
 - Dark mode (toggle at the top of the screen)
@@ -23,6 +23,7 @@ For Windows 11 (64-bit). **You do not need to install .NET separately** — the 
 1. On first launch, a **language selection screen** appears. Choose your language (you can change it later inside the app).
 2. A team with a placeholder name is created for you.
 3. Your data is stored next to the app (exe): `ertool.db` (data) and `settings.json` (language and other settings).
+  - Beta-007 adds weapon data to `ertool.db` (it is updated automatically on launch, and your existing data is kept). If you might go back to Beta-006 or earlier, back up `ertool.db` before updating.
 
 Sample data is available in the [`Sample/2026-KEL`](./Sample/2026-KEL) folder of this repository.
 
@@ -34,7 +35,9 @@ The screen is laid out as: **Player area** on the left, the **character list** a
 
 <img src="./image.png" alt="Screen overview" style="zoom:30%;" />
 
-- Press "Add player" to register a player name and a Dak.gg link.
+- Press "Add player" to register a player name and a Dak.gg player name.
+  - For Dak.gg, enter **only the [player name] part** of `https://dak.gg/er/players/[player name]` (the app builds the URL when it opens it).
+  - Pasting the full URL also works. It is converted to just the player name when you save.
   - The player name doesn't have to match the Dak.gg name. Use whatever name is easy to recognize.
   - Player names must be unique (case-insensitive).
 - You can also add a player who is already registered in another team (players are shared across teams).
@@ -45,7 +48,7 @@ The screen is laid out as: **Player area** on the left, the **character list** a
 | --- | --- |
 | 💾 Floppy disk | Saves the player data |
 | ⚙ Gear | Player settings: delete data, import, etc. |
-| 🌐 Globe | Opens Dak.gg in your browser (unavailable if no Dak.gg link is registered) |
+| 🌐 Globe | Opens Dak.gg in your browser (unavailable if no Dak.gg player name is registered) |
 | ⤴ Share icon | Exports the player data (for sharing with others) |
 | ✕ Cross | Removes this player from the team |
 
@@ -89,6 +92,24 @@ The screen is laid out as: **Player area** on the left, the **character list** a
 - Each comp slot has a **RouteID** field (an integer of 1 or more) below the player name.
 - It's optional, and the same number can be used in several slots.
 - Press Enter or move focus away to apply it.
+
+### Weapons
+
+- When you put a character into a comp, a **weapon** square appears at the bottom right of the character image.
+  - **Characters with only one weapon**: that weapon is shown automatically (it cannot be changed).
+  - **Characters with two or more weapons**: it starts as an empty slot with a red ×. Click it to open a selection panel right there.
+    - The × on the left means "no weapon". The available weapons follow in order.
+    - Hover over a weapon to see its name in the current language.
+    - Click a weapon to set it. Click outside the panel to cancel and close it.
+- Choosing a weapon is optional. You can save without one.
+- If you swap in a different character, the weapon is reset (placing the same character again keeps it). Removing a character from a comp also removes its weapon.
+- Weapons are included when you save, export, and import teams. A player's pool of characters has nothing to do with weapons.
+- **Weapons are not part of the duplicate check.** A comp with the same characters and the same players that differs only in weapons counts as the same comp (a duplicate) and cannot be saved.
+
+#### Notes about weapons
+
+- **Alex** is a character designed to have his equipment updated, so his weapon is fixed to Tonfa.
+- **Echion** can only use the evolved weapons (Deathadder, BlackMamba, Sidewinder).
 
 ---
 
